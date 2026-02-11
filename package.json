@@ -1,0 +1,43 @@
+{
+  "name": "@crashbytes/pusher-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Pusher Channels — trigger events, query channels, and manage realtime messaging from AI agents",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "pusher-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "tsx src/index.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "pusher",
+    "realtime",
+    "websockets",
+    "ai",
+    "claude"
+  ],
+  "author": "CrashBytes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrashBytes/pusher-mcp-server.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "pusher": "^5.2.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}
