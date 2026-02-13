@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/pusher-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Pusher Channels — trigger events, query channels, and manage realtime messaging from AI agents",
   "type": "module",
   "main": "build/index.js",
@@ -26,7 +26,7 @@
     "ai",
     "claude"
   ],
-  "mcpName": "io.github.crashbytes/pusher-mcp-server",
+  "mcpName": "io.github.CrashBytes/pusher-mcp-server",
   "author": "CrashBytes",
   "license": "MIT",
   "repository": {

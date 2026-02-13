@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.crashbytes/pusher-mcp-server",
+  "name": "io.github.CrashBytes/pusher-mcp-server",
   "title": "Pusher Channels",
   "description": "Trigger events, query channels, and manage realtime messaging on Pusher Channels.",
   "repository": {
     "url": "https://github.com/CrashBytes/pusher-mcp-server",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@crashbytes/pusher-mcp-server",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "runtime": "node",
       "runtimeArgs": [],
       "transport": {
