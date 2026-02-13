@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/pusher-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Pusher Channels — trigger events, query channels, and manage realtime messaging from AI agents",
   "type": "module",
   "main": "build/index.js",

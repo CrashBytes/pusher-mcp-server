@@ -7,12 +7,12 @@
     "url": "https://github.com/CrashBytes/pusher-mcp-server",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@crashbytes/pusher-mcp-server",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtime": "node",
       "runtimeArgs": [],
       "transport": {
