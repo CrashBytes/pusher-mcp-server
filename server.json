@@ -1,0 +1,83 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.crashbytes/pusher-mcp-server",
+  "title": "Pusher Channels",
+  "description": "Trigger events, query channels, and manage realtime messaging on Pusher Channels.",
+  "repository": {
+    "url": "https://github.com/CrashBytes/pusher-mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@crashbytes/pusher-mcp-server",
+      "version": "1.0.0",
+      "runtime": "node",
+      "runtimeArgs": [],
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "PUSHER_APP_ID",
+          "description": "Your Pusher application ID",
+          "isRequired": true,
+          "isSecret": false,
+          "format": "string"
+        },
+        {
+          "name": "PUSHER_KEY",
+          "description": "Your Pusher application key",
+          "isRequired": true,
+          "isSecret": false,
+          "format": "string"
+        },
+        {
+          "name": "PUSHER_SECRET",
+          "description": "Your Pusher application secret",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "PUSHER_CLUSTER",
+          "description": "Pusher cluster region (e.g. us2, eu, ap1)",
+          "isRequired": true,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "trigger_event",
+      "description": "Send an event to one or more Pusher channels"
+    },
+    {
+      "name": "trigger_batch_events",
+      "description": "Send up to 10 events in a single API call"
+    },
+    {
+      "name": "list_channels",
+      "description": "List all active channels with optional prefix filter"
+    },
+    {
+      "name": "get_channel_info",
+      "description": "Get detailed info about a specific channel"
+    },
+    {
+      "name": "get_presence_users",
+      "description": "List users connected to a presence channel"
+    },
+    {
+      "name": "authorize_channel",
+      "description": "Generate auth tokens for private/presence channels"
+    },
+    {
+      "name": "terminate_user_connections",
+      "description": "Disconnect all connections for a specific user"
+    }
+  ]
+}
