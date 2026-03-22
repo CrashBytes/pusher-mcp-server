@@ -1,6 +1,6 @@
 {
   "name": "@crashbytes/pusher-mcp-server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "MCP server for Pusher Channels — trigger events, query channels, and manage realtime messaging from AI agents",
   "type": "module",
   "main": "build/index.js",
@@ -35,13 +35,13 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.27.1",
-    "pusher": "^5.3.2",
+    "pusher": "^5.3.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.18"
+    "vitest": "^4.1.0"
   }
 }
