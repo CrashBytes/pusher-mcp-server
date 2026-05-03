@@ -23,7 +23,7 @@ export function registerAuthorizeChannel(server: McpServer) {
         .object({
           user_id: z.string().min(1).describe("Unique user identifier"),
           user_info: z
-            .record(z.unknown())
+            .record(z.string(), z.unknown())
             .optional()
             .describe("Optional user metadata (name, avatar, etc.)"),
         })

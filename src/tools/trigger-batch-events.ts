@@ -18,7 +18,7 @@ export function registerTriggerBatchEvents(server: McpServer) {
               .describe("Target channel name"),
             name: z.string().min(1).max(200).describe("Event name"),
             data: z
-              .union([z.string(), z.record(z.unknown())])
+              .union([z.string(), z.record(z.string(), z.unknown())])
               .describe("Event payload"),
             socketId: z.string().optional().describe("Socket ID to exclude"),
           })

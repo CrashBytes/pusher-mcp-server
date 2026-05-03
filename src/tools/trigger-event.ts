@@ -20,7 +20,7 @@ export function registerTriggerEvent(server: McpServer) {
         .max(200)
         .describe("Event name to trigger (e.g. 'new-message', 'update')"),
       data: z
-        .union([z.string(), z.record(z.unknown())])
+        .union([z.string(), z.record(z.string(), z.unknown())])
         .describe("Event payload — string or JSON object (max 10KB)"),
       socketId: z
         .string()
