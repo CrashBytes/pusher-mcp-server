@@ -36,13 +36,13 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0",
     "pusher": "^5.3.4",
-    "zod": "^4.5.4"
+    "zod": "^4.6.5"
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.5.1",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.1"
   },
   "overrides": {
     "esbuild": ">=0.28.1",
