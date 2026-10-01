@@ -25,7 +25,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Upgrade npm for Trusted Publishing
-        run: npm install -g npm@latest  # Requires npm >= 11.5.1
+        run: npm install -g npm@11  # Compatible with Node 20 (npm >= 11.5.1 required, npm 12+ requires Node >=22)
 
       - name: Install dependencies
         run: npm ci
